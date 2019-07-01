@@ -1,4 +1,7 @@
 version: 0.1
+env:
+  variables::
+      Key: 
 backend:
   phases:
     preBuild:
