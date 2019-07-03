@@ -23,7 +23,7 @@ type Booking @model @auth(rules: [
     ]) {
     id: ID!
     status: BookingStatus!
-    inboundFlight: Flight @connection 
+    inboundFlight: Flight @connection
     outboundFlight: Flight! @connection
     paymentToken: String!
     checkedIn: Boolean

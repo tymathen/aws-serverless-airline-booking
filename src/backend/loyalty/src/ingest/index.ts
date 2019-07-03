@@ -111,7 +111,7 @@ export async function handler(event: SNSEvent, context: Context): Promise<Result
   }
 
   try {
-    const record = JSON.parse(event.Records[0].Sns.Message);
+    const record = res.text(event.Records[0].Sns.Message);
     const customerId = record['customerId'];
     const points = record['price'];
 

@@ -52,10 +52,3 @@
 			]
 		}
 	},
-	"Outputs": {
-		"EmptyOutput": {
-			"Description": "An empty output. You may delete this if you have at least one resource above.",
-			"Value": ""
-		}
-	}
-}
